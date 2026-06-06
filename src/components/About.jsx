@@ -5,7 +5,7 @@ export default function About() {
   const stats = [
     { label: 'GitHub Repositories', value: '135+', icon: <Code2 size={20} className="text-gradient-cyan" /> },
     { label: 'Followers on GitHub', value: '18', icon: <Award size={20} className="text-gradient-purple" /> },
-    { label: 'Base Location', value: 'Baku, AZE', icon: <MapPin size={20} className="text-gradient-green" /> },
+    { label: 'Base Location', value: 'Riga, LAT', icon: <MapPin size={20} className="text-gradient-green" /> },
     { label: 'Current Association', value: 'Horecarentable', icon: <Cpu size={20} className="text-gradient-cyan" /> },
   ];
 

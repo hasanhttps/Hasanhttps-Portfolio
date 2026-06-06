@@ -57,8 +57,7 @@ export default function Footer() {
           }}
         >
           <span>Built with</span>
-          <Heart size={12} style={{ color: '#ff0055', fill: '#ff0055' }} />
-          <span>using React & CSS</span>
+          <span>React & CSS</span>
         </div>
       </div>
 

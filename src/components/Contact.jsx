@@ -6,7 +6,7 @@ export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
   const [status, setStatus] = useState('');
 
-  const emailAddress = 'hasan.abdullazade.dev@gmail.com'; // Placeholder, easily editable
+  const emailAddress = 'hasanabdullazad@gmail.com'; // Placeholder, easily editable
 
   const handleCopy = () => {
     navigator.clipboard.writeText(emailAddress);
@@ -121,7 +121,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', fontWeight: 600 }}>LOCATION</div>
-                    <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text-primary)' }}>Baku, Azerbaijan</div>
+                    <div style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text-primary)' }}>Riga, Latvia</div>
                   </div>
                 </div>
 
